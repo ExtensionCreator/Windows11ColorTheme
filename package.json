@@ -1,0 +1,30 @@
+{
+    "name": "windows-11-color-theme",
+    "displayName": "Windows 11 Color Theme",
+    "description": "Get the fresh new look of Windows 11",
+    "publisher": "ExtensionCreator",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "logo.png",
+    "bugs": {
+		"url": "https://github.com/ExtesnionCreator/PythonCodeSnippets/issues"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "Windows 11 Color Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Windows 11 Color Theme-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ExtensionCreator/Windows11ColorTheme"
+    }
+}
